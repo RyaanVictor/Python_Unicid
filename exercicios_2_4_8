@@ -1,0 +1,24 @@
+Exercicio 02
+
+numero = int(input("Digite um número: "))
+if numero % 2 == 0: print("Esse número é par")
+else: print("Ele é ímpar")
+
+Exercicio 04
+
+idade = 2024 - int(input("Em que ano você nasceu: "))
+print(f" Você tem {idade} anos: ")
+if (idade < 16 ):
+    print("Você é obrigado a votar")
+elif (idade <= 16 < 18 or idade >= 65):
+    print("Você tem voto facultativo")
+else:print("Você é obrigado as votar")
+
+
+Exercicio 08
+
+ano = int(input("Digite um ano: "))
+if(ano %4==0 and ano %100!=0)or(ano % 400 == 0):
+    print(f"{ano} é um ano bissexto")
+else:
+    print(f"{ano} não é um ano bissexto")
