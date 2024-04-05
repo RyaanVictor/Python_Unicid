@@ -1,3 +1,4 @@
+#4) votar ou nao 
 idade = 2024 - int(input("Em que ano você nasceu: "))
 print(f" Você tem {idade} anos: ")
 if (idade < 16 ):
